@@ -42,7 +42,6 @@ function loadingPage() {
 }
 
 $("#open").click(function () {
-
 	if (!envelope_opened) {
 
 		$('#wax-half').css('display', "block");
@@ -59,6 +58,8 @@ $("#open").click(function () {
 		});
 
 		$('#open').find("span").eq(0).css('background-position', "0 -150px");
+		$('#letter').css("height", "700px");
+		$('#letter').css("z-index", "999");
 
 		envelope_opened = true;
 

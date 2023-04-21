@@ -25,6 +25,15 @@
 	margin-right: -7px;
 	background: url(../img/stamp-base.png) no-repeat;
 }
+#haimianbaobao {
+	float: left;
+	display: block;
+	width: 135px;
+	height: 110px;
+	margin-top: -10px;
+	margin-right: 50px;
+	padding-left: 12px;
+}
 
 #stamp img {
 	display: block;
@@ -33,6 +42,7 @@
 }
 
 #recipient {
+	font-family: Satisfy, serif;
 	font-size: 1.5em;
 	line-height: 1.6;
 	float: left;
@@ -56,6 +66,7 @@
 }
 
 #flip {
+	font-family: Satisfy, serif;
 	margin: 165px 0 0 10px;
 	float: left;
 	font-size: 20px;
@@ -241,7 +252,7 @@ section.container>form.flip .front {
 section.container>form.flip>.front {
 	font-size: 1.25em;
 	background: beige url("../img/texture.png");
-	padding: 120px 20px 20px 40%;
+	padding: 120px 20px 20px 35%;
 	border: 1px #eae1d5 solid;
 }
 
@@ -284,7 +295,7 @@ section.container>form.flip>.front {
 /* data */
 
 #data {
-	height: 210px;
+	height: 810px;
 	overflow-y: auto;
 }
 
@@ -303,7 +314,9 @@ section.container>form.flip>.front {
 }
 
 /* letter */
-
+p.letter {
+    margin-top: 20px;
+}
 #letter {
 	background: #fafafa;
 	width: 90%;

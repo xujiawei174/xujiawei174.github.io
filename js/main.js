@@ -24,6 +24,7 @@ window.onload = function () {
         $('#flip').text(result.sender);
         if (result.stamp != null) {
             $('#stamp img').attr('src', result.stamp);
+            $('#haimianbaobao img').attr('src', './img/mmexport1682068015720.gif');
         }
         toBase64(result.bgm);
     });
