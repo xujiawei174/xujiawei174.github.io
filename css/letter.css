@@ -315,6 +315,7 @@ section.container>form.flip>.front {
 
 /* letter */
 p.letter {
+	font-size: 25px;
     margin-top: 20px;
 }
 #letter {

@@ -18,7 +18,8 @@ window.onload = function () {
         content.from = result.from;
         content.recipient = result.recipient;
         content.text = result.text;
-        content.sign = getPureStr(content.from).pxWidth('18px Satisfy, serif');
+        content.sign = 80;
+        // content.sign = getPureStr(content.from).pxWidth('18px Satisfy, serif');
         document.title = result.title;
         $('#recipient').append(content.to);
         $('#flip').text(result.sender);
